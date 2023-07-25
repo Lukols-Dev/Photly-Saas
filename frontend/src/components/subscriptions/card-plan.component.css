@@ -1,0 +1,54 @@
+.cardPlan {
+  width: 260px;
+  height: 417px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 1px 6px rgb(60 64 67 / 30%);
+}
+
+.cardPlan--recomendet {
+  border: 2px solid #1890ff;
+}
+
+.cardPlan__recomendet {
+  position: absolute;
+  top: -20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.cardPlan__title {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.cardPlan__size {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.cardPlan__price {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.cardPlan__button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

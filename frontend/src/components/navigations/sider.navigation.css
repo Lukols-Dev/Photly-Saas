@@ -1,0 +1,63 @@
+.navigationSider {
+  background-color: #ffff;
+}
+
+.ant-layout-sider-trigger {
+  background-color: rgb(146, 146, 146);
+}
+
+.navigationSider__avatar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigationSider__avatar--hover:hover {
+  cursor: pointer;
+}
+
+.navigationSider__menu {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.navigationSider__menu__databaseSize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.navigationSider__menu__databaseSize p {
+  margin: 0;
+  width: 100%;
+}
+
+/* BUTTON design */
+.navigationSider__menu__databaseSize__button {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #ffff;
+  background-color: #4b88fe;
+}
+
+.navigationSider__menu__databaseSize__button:hover {
+  color: #ffff;
+  background-color: #4b87fe96;
+  transition: ease-in-out 0.4s;
+}

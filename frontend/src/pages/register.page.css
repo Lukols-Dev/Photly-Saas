@@ -1,0 +1,52 @@
+.registerPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerPage__left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerPage__left__formulage {
+  height: 100%;
+  width: 380px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerPage__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerPage__right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Logo MVP */
+.regLogrPage__logo {
+  font-size: 28px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: #000;
+}
+
+.regLogrPage__logo:hover {
+  color: #000;
+}

@@ -1,0 +1,25 @@
+.formulage__input.ant-input,
+.formulage__input.ant-input-affix-wrapper {
+  border-radius: 8px;
+}
+
+/* Login button */
+.formRegister__register__btn {
+  width: 200px;
+  margin: 20px auto;
+}
+
+.formRegister__checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formRegister .ant-form-item {
+  margin-bottom: 10px;
+}
