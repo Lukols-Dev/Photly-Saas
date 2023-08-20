@@ -12,6 +12,7 @@ import { useState } from "react";
 import { Button, DatePicker, Input, Modal, Result, Spin, Switch } from "antd";
 import TextArea from "antd/lib/input/TextArea";
 import { Gallery } from "../../types/gallery.types";
+import { GridElements } from "../../components/layouts/grid-elements";
 
 export const AuthGalleriesPage: FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -81,8 +82,8 @@ export const AuthGalleriesPage: FC = () => {
               Add gallery
             </Button>
           </div>
-          {!gallery ? (
-            <div></div>
+          {gallery ? (
+            <GridElements />
           ) : (
             <div className="authGalleriesPage__emptyGallery">
               <h3>Your gallery is empty</h3>

@@ -1,0 +1,9 @@
+.grid {
+  height: 100%;
+  margin: 20px 30px;
+}
+
+.grid__row {
+  width: 100%;
+  height: 200px;
+}

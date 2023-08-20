@@ -12,6 +12,7 @@ import {
 import { RegisterPage } from "../pages/register.page";
 import { MessageDetailsPage } from "../pages/message-details/message-details";
 import { HomeMVPpage } from "../pages";
+import { GalleriesDetailsPage } from "../pages/galleries-details/galleries-details";
 
 export const BaseRoutes: FC = () => {
   return (
@@ -26,6 +27,7 @@ export const BaseRoutes: FC = () => {
               <Route path="messages" element={<AuthContactPage />} />
               <Route path="messages/:id" element={<MessageDetailsPage />} />
               <Route path="galleries" element={<AuthGalleriesPage />} />
+              <Route path="galleries/:id" element={<GalleriesDetailsPage />} />
               <Route path="plans" element={<AuthSubscriptionPage />} />
             </Route>
           </Route>
